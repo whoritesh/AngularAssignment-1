@@ -34,7 +34,6 @@ export class AddEmployeeComponent implements OnInit{
       this.pageTitle = 'Edit Employee';
     }
 
-
     this.form = this.formBuilder.group({
       //id: {value:'', disabled:true},
       id: [''],
